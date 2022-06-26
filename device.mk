@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 TARGET_HAS_FOD := true
 
+# Lito
+TARGET_BOARD_PLATFORM := lito
+
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
