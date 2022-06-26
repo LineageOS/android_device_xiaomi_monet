@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from sm7250-common
-include device/xiaomi/sm7250-common/BoardConfigCommon.mk
+# Inherit from sm8250-common
+include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/monet
 

@@ -34,8 +34,8 @@ TARGET_HAS_FOD := true
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
-# Inherit from sm7250-common
-$(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
+# Inherit from sm8250-common
+$(call inherit-product, device/xiaomi/sm8250-common/common.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/monet/monet-vendor.mk)
