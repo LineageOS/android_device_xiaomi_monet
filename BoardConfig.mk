@@ -18,7 +18,7 @@ TARGET_OTA_ASSERT_DEVICE := monet,milito
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_monet
+$(call soong_config_set,libinit,vendor_init_lib,//$(DEVICE_PATH):init_xiaomi_monet)
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_monet
 
 # Properties
