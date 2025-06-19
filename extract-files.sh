@@ -14,6 +14,12 @@ function blob_fixup() {
         vendor/lib64/camera/components/com.mi.node.watermark.so)
             patchelf --add-needed "libpiex_shim.so" "${2}"
             ;;
+        vendor/lib/libaudioroute_ext.so)
+            patchelf --replace-needed 'libaudioroute.so' 'libaudioroute-v34.so' "${2}"
+            ;;
+        vendor/lib/hw/audio.primary.lito.so)
+            patchelf --replace-needed 'libaudioroute.so' 'libaudioroute-v34.so' "${2}"
+            ;;
     esac
 }
 
