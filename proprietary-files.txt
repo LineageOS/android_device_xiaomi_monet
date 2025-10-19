@@ -55,12 +55,7 @@ vendor/firmware/tfa98xx.cnt
 vendor/etc/cirrus.cfg
 
 # Audio hardware
-vendor/lib/hw/audio.primary.lito.so
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioroute_ext.so
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib64/hw/audio.primary.lito.so
 vendor/lib64/liba2dpoffload.so
 vendor/lib64/libaudio_log_utils.so
