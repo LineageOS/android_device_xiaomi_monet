@@ -70,8 +70,6 @@ vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 # Camera
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
 vendor/lib64/camera/com.qti.eeprom.monet_ofilm_gc02m1_gt24p64b.so
 vendor/lib64/camera/com.qti.eeprom.monet_ofilm_ov16a1q_gt24p64b.so
 vendor/lib64/camera/com.qti.eeprom.monet_ofilm_ov48b2q_gt24p64b.so
